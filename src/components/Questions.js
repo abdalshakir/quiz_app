@@ -12,10 +12,10 @@ function Questions() {
 
     function checkAns() {
         let correctValue = questions.questions[ind].correctAnswer;
-        if (selectedValue == correctValue) {
+        if (selectedValue === correctValue) {
             setScore(score + 1)
         }
-        if (questions.questions.length == ind + 1) {
+        if (questions.questions.length === ind + 1) {
             setShowResult(true)
         } else {
             setInd(ind + 1)
