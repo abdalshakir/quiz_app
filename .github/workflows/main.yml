@@ -34,7 +34,7 @@ jobs:
 
       # Build react app
       - name: Build the app
-        run: npm run build CI=false
+        run: npm run build
 
       # Install Surge 
       - name: Install Surge
