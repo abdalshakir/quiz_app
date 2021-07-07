@@ -24,8 +24,6 @@ function Questions() {
             setEnd(false)
         } else {
             setInd(ind + 1)
-        }if (selectedValue === "") {
-            alert("Please Select Answer");
         }
     }
     return (
